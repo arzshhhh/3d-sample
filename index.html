@@ -1,0 +1,79 @@
+<!-- STYLE B: Boxed Professional with 3D Enhancements -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freeze Cleaning Services - 3D Boxed Style</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #e0f7ff, #ffffff);
+    }
+    .container-boxed {
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 1.5rem;
+      padding: 2rem;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
+    }
+    .neumorphic {
+      background: #e0f0ff;
+      border-radius: 1rem;
+      box-shadow: 8px 8px 16px #b8cbe4, -8px -8px 16px #ffffff;
+      padding: 1.5rem;
+      transition: transform 0.3s;
+    }
+    .neumorphic:hover {
+      transform: translateY(-5px);
+    }
+  </style>
+</head>
+<body class="text-gray-800 font-sans py-10">
+  <div class="container-boxed">
+    <header class="text-center mb-8">
+      <h1 class="text-4xl font-extrabold text-blue-700">Freeze Cleaning Services</h1>
+      <p class="text-gray-600 mt-2">Your Home, Professionally Cleaned with Style</p>
+    </header>
+
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-12">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Top Features</h2>
+        <ul class="space-y-4">
+          <li class="neumorphic">✨ Premium boxed layout</li>
+          <li class="neumorphic">🧽 3D character animations doing cleaning</li>
+          <li class="neumorphic">🌟 Glassy buttons and modern icons</li>
+        </ul>
+      </div>
+      <div class="text-center">
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_iwmd6pyr.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="neumorphic text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046871.png" class="w-20 mx-auto mb-4" alt="Vacuum" />
+        <h3 class="text-xl font-bold">Vacuuming</h3>
+        <p>Detailed deep vacuuming with precision equipment.</p>
+      </div>
+      <div class="neumorphic text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/679/679720.png" class="w-20 mx-auto mb-4" alt="Mopping" />
+        <h3 class="text-xl font-bold">Mopping</h3>
+        <p>Hardwood and tile mopping with fast-dry finish.</p>
+      </div>
+      <div class="neumorphic text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" class="w-20 mx-auto mb-4" alt="Window Cleaning" />
+        <h3 class="text-xl font-bold">Window Cleaning</h3>
+        <p>Streak-free windows with eco-friendly products.</p>
+      </div>
+    </div>
+
+    <footer class="text-center mt-12 text-sm text-gray-500">
+      &copy; 2025 Freeze Cleaning Services. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
